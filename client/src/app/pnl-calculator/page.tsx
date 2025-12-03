@@ -137,7 +137,7 @@ export default function PnlCalculator() {
 
             {/* QUANTITY */}
             <div className="space-y-1">
-              <Label>Quantity (USD)</Label>
+              <Label>Quantity After Leveraged (USD)</Label>
               <Input
                 type="number"
                 className="bg-white! border-gray-700 text-black"
