@@ -32,8 +32,8 @@ function UpBar({ title, back }: { title: string; back: boolean }) {
       </p>
 
       {/* Right side */}
-      {/* <div>
-        {!isLoggedIn ? (
+      <div>
+        {/* {!isLoggedIn ? (
           <button
             className="bg-white text-black px-4 py-1 rounded-full text-sm font-semibold"
             onClick={() => router.push("/sign-in")}
@@ -47,8 +47,8 @@ function UpBar({ title, back }: { title: string; back: boolean }) {
           >
             Trade
           </Link>
-        )}
-      </div> */}
+        )} */}
+      </div>
     </div>
   );
 }
