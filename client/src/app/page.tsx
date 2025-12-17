@@ -34,6 +34,14 @@ export default function Home() {
               width={150}
             />
           </OptionCard>
+          <OptionCard title="Position Size Calculation" url="size-calculation">
+            <Image
+              src="/size.png"
+              alt="Position Size Calculation"
+              height={150}
+              width={150}
+            />
+          </OptionCard>
           <OptionCard title="Coming Soon" url="unavailable">
             <Image
               src="/unavailable.png"
