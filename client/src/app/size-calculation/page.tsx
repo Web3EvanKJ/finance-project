@@ -57,7 +57,7 @@ export default function PositionSizeCalculator() {
                 className="bg-white! border-gray-700 text-black"
                 value={capital}
                 onChange={(e) => setCapital(e.target.value)}
-                placeholder="10000"
+                placeholder="0"
               />
             </div>
 
@@ -69,7 +69,7 @@ export default function PositionSizeCalculator() {
                 className="bg-white! border-gray-700 text-black"
                 value={risk}
                 onChange={(e) => setRisk(e.target.value)}
-                placeholder="1"
+                placeholder="0"
               />
             </div>
 
@@ -81,7 +81,7 @@ export default function PositionSizeCalculator() {
                 className="bg-white! border-gray-700 text-black"
                 value={entry}
                 onChange={(e) => setEntry(e.target.value)}
-                placeholder="1000"
+                placeholder="0"
               />
             </div>
 
@@ -93,7 +93,7 @@ export default function PositionSizeCalculator() {
                 className="bg-white! border-gray-700 text-black"
                 value={sl}
                 onChange={(e) => setSl(e.target.value)}
-                placeholder="950"
+                placeholder="0"
               />
             </div>
 
